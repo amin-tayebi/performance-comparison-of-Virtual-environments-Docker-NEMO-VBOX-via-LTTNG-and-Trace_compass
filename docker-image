@@ -1,0 +1,9 @@
+FROM openjdk:8-jre-alpine
+ 
+ADD jar/httpserver9090.jar  httpserver9090.jar 
+
+# Make a port available to the world outside this container
+EXPOSE 80
+
+# Run a command when the container launches
+CMD ["java" ,"-jar", "httpserver9090.jar"]
