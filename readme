@@ -1,0 +1,28 @@
+I explained the stages step by step:
+1-run the httpserver (codes which has been uploaded in java) on ECLIPS and export it as a jarfile (Httpserver9090.jar).
+Note1: I put some computatins (e.g. calculating random integers) to increase CPU loads on the httpserver.
+Note2: the name of the image should be exactly
+A-as Httpserver9090.jar
+B- also in the program mentiond folder (jar) unless it doesn't work.
+
+2-buid the container. 
+3-now the httpserver is built and run on top of Docker.
+4-by using lttng+tracecompass you are able to compare CPU and memory(RAM) on your PC in this scenario.
+5-then you have to run httpserver on top of Vbox and again using lttng+tracecompass write the results.
+6-run httpserver on top of NEMO and write the results. 
+7- we also compare the cpu and memory for Linux Mint.
+
+in case of memory usage:
+vbox :400 mb
+Docker 30 mb
+Nemo 20mb
+Linux 2mb
+
+in case of CPU usage:
+vbox 97%
+Docker 16%
+Nemo 38%
+Linux 67%
+
+you can see that memory  in NEMO is better than: Docker and Vbox
+in CPU scenario NEMO is better than: Vbox and Linux mint
