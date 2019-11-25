@@ -1,6 +1,6 @@
 # Dockerized-httpserver
 #httpserver has been written with Java (below codes).
-#Author (Amin Tayebi) is a researcher in Parma university. He has proposed the evaluation of a dockerized web-application.
+#Author (TAYEBI) is a researcher in Parma university. In 2018 he has proposed evaluation of a dockerized web-application.
 #compare the results with another virtual environmens (Vbox-NEMO).
 #NEMO is a java virtual network emulator (has been proposed by prof Luca VELTRI) which its codes exist in github.
 import java.math.BigInteger;
