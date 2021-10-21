@@ -1,6 +1,6 @@
-#here build a container from httpserver9090.jar
+# build a container from httpserver9090.jar
 #!/bin/sh
-#build a container from previously built image
+# build a container from previously built image
 docker build -t httpserver9090 .
-#put the httpserver on port 9090
+# put the httpserver on port 9090
 docker run -p 9090:9090 httpserver9090 
