@@ -1,3 +1,8 @@
+*/
+* Part of this code is an HTTP server based on NEMO HTTP implementation by Network securoty LAB in PARMA university (Author is Prof. Luca VELTRI). 
+* I added some codes to generate load in order to check the CPU performance.
+*/
+
 import java.math.BigInteger;
 
 import java.io.IOException;
