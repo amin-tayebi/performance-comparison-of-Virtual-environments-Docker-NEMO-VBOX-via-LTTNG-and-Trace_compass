@@ -6,7 +6,7 @@
 
 1-run the httpserver codes (which has been uploaded in java copy) on ECLIPS and export it as a jar file (Httpserver9090.jar).
 
-Note1: I put some computatins (e.g. calculating random integers) to increase CPU loads on the httpserver.
+Note1: We put some computatins (e.g. calculating random integers) to increase CPU loads on the httpserver.
 Note2: the name of the image should be exactly
 
 A-as Httpserver9090.jar
@@ -31,3 +31,19 @@ Nemo 38%
 
 you can see that memory  in NEMO is better than: Docker and Vbox
 in CPU scenario NEMO is better than: Vbox and Linux mint
+
+In another words
+
+# CPU performance 
+Virtual Box CPU usage analyze shows 230% out of 800% with the same Hardware and scenario
+
+NEMO CPU usage analyze shows 38% out of 800% with the same Hardware and scenario
+
+DOCKER CPU usage analyze shows 16.5% out of 800% with the same Hardware and scenario
+
+# Memory performance 
+Virtual Box memory usage analyze shows 394.8 MB with the same Hardware and scenario
+
+Nemo memory usage analyze shows 19.3 MB with the same Hardware and scenario
+
+DOCKER memory usage analyze shows 27.5 MB with the same Hardware and scenario
