@@ -1,18 +1,18 @@
 # performance comparison of Virtual environments (Docker, NEMO, VBOX) with LTTNG and Trace compass tool (2019)
-#httpserver has been written with Java. In 2018 I evaluated a dockerized web-application (more descriptions is in Project section on the top) in order to compare the results with another virtual environmens (Vbox-NEMO).
+#httpserver has been written with Java. In 2018 we evaluated a dockerized web-application to compare the results with another virtual environmens (Vbox-NEMO).
 #NEMO is a java virtual network emulator (has been proposed by prof Luca VELTRI) which its codes exist in github.
 
 # STEPS
 
 1-run the httpserver codes (which has been uploaded in java copy) on ECLIPS and export it as a jar file (Httpserver9090.jar).
 
-Note1: We put some computatins (e.g. calculating random integers) to increase CPU loads on the httpserver.
-Note2: the name of the image should be exactly
+Note1: We put some computations (e.g. calculating random integers) to increase CPU loads on the httpserver.
+Note2: the name of the image should be exactly:
 
 A-as Httpserver9090.jar
-B- also in the program mentiond folder (jar) unless it doesn't work
+B-also in the program mentiond folder (jar) unless it doesn't work
 
-2-buid the container. 
+2-buiding related container. 
 3-now the httpserver is built and run on top of Docker.
 4-by using lttng+tracecompass you are able to compare CPU and memory(RAM) on your PC in this scenario.
 5-then you have to run httpserver on top of Vbox and again using lttng+tracecompass write the results.
