@@ -1,6 +1,6 @@
-# performance comparison of Virtual environments (Docker, NEMO, VBOX) with LTTNG and Trace compass tool (2019)
+# performance comparison of Virtual environments (Docker, NEMO , VBOX) with LTTNG and Trace compass tool (2019)
 #httpserver has been written with Java. In 2018 we evaluated a dockerized web-application to compare the results with another virtual environmens (Vbox-NEMO).
-#NEMO is a java virtual network emulator (has been proposed by prof Luca VELTRI) which its codes exist in github.
+#NEMO is a java virtual network emulator based on JVM (has been proposed by prof Luca VELTRI) which its source codes and description exists freely HERE https://netsec.unipr.it/project/nemo.
 
 # STEPS
 
@@ -19,12 +19,12 @@ B-also in the program mentiond folder (jar) unless it doesn't work
 6-run httpserver on top of NEMO and write the results. 
 7-we also compare the cpu and memory for Linux Mint.
 
-in case of memory usage:
+In case of memory usage:
 vbox :400 mb
 Docker 30 mb
 Nemo 20mb
 
-in case of CPU usage:
+In case of CPU usage:
 vbox 97%
 Docker 16%
 Nemo 38%
